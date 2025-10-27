@@ -3,6 +3,3 @@ class Questions:
         self.question = question
         self.answer = answer
 
-
-    def get_question(self):
-        return self.question
