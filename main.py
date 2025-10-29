@@ -11,7 +11,6 @@ def create_question_list():
     resource.raise_for_status()
 
     quizz_data = resource.json()
-    print(quizz_data)
     question_data = quizz_data['results']
 
     for _question in question_data:
